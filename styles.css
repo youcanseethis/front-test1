@@ -1,0 +1,68 @@
+@media (min-width:23em)
+{
+    body
+    {
+        background-image: url(./images/pattern-background-mobile.svg);
+        background-size: 100%;
+    }
+}
+@media (min-width:40em)
+{
+    body
+    {
+        background-image: url(./images/pattern-background-desktop.svg);
+        background-size: 150%;
+    }
+}
+.orderBox
+{
+    top: 1rem;
+    left: 35%;
+    width: 20rem;
+    border-radius: 15px;
+    box-shadow: 3px 7px rgba(0,0,0,0.15);
+}
+.change
+{
+    background-color: rgba(223, 196, 245, 0.267);
+    border-radius: 10px;
+    box-shadow: 3px 5px rgba(0,0,0,0.15);
+}
+.btn-light
+{
+    border: none;
+    background: white;
+    color: rgba(0,0,0,0.65);
+    width: 100%;
+    border-radius: 15px;
+}
+#butg
+{
+    width: 18rem;
+    position: relative;
+    text-align: center;
+}
+.card-img-top
+{
+    border-top-right-radius:15px;
+    border-top-left-radius: 15px;
+}
+.btn-primary
+{
+    background-color: rgb(86, 74, 248);
+    box-shadow: 2px 20px 10px rgba(86,74,248,0.3);
+    border-radius: 15px;
+    margin-bottom: 10%;
+    width: 100%;
+}
+.card-title
+{
+    text-align: center;
+}
+.card-text
+{
+    text-align: center;
+    color: rgba(99, 99, 99, 0.692);
+    font-size: 15px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
